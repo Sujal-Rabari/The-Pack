@@ -544,7 +544,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 2rem;
-  background-color: #18d26e;
+  background-color: #16df7e;
 }
 
 .featured-services .icon-box {
@@ -596,29 +596,46 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 32px;
-  color: #5f687b;
+#about {
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  padding-top: 0;
+}
+.aboutRow {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  background-color: #16df7e;
+  text-align: left;
+  padding: 4rem 2rem !important;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
+.content > h3 {
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
+.aboutP {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 3rem;
+  font-size: 19px;
+  line-height: 2.3rem;
 }
 
-.about .content ul li {
-  padding-bottom: 10px;
+.content > .tagLine {
+  color: #3a3aea;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 2rem 0rem;
 }
 
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #16df7e;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
+.aboutBoy {
+  width: 42rem;
+  margin: 2rem;
 }
 
 /*--------------------------------------------------------------
